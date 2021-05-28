@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.258b8cec.chunk.css",
-    "main.js": "/static/js/main.c1c63370.chunk.js",
-    "main.js.map": "/static/js/main.c1c63370.chunk.js.map",
+    "main.css": "/static/css/main.9bd54bc8.chunk.css",
+    "main.js": "/static/js/main.476389da.chunk.js",
+    "main.js.map": "/static/js/main.476389da.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ae35b825.js",
     "runtime-main.js.map": "/static/js/runtime-main.ae35b825.js.map",
     "static/css/2.4f8976c6.chunk.css": "/static/css/2.4f8976c6.chunk.css",
@@ -10,19 +10,19 @@
     "static/js/2.fbd658cc.chunk.js.map": "/static/js/2.fbd658cc.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4f8976c6.chunk.css.map": "/static/css/2.4f8976c6.chunk.css.map",
-    "static/css/main.258b8cec.chunk.css.map": "/static/css/main.258b8cec.chunk.css.map",
+    "static/css/main.9bd54bc8.chunk.css.map": "/static/css/main.9bd54bc8.chunk.css.map",
     "static/js/2.fbd658cc.chunk.js.LICENSE.txt": "/static/js/2.fbd658cc.chunk.js.LICENSE.txt",
     "static/media/communication_skills.55a98079.png": "/static/media/communication_skills.55a98079.png",
     "static/media/conceptual_thinking.d38f5aad.jpg": "/static/media/conceptual_thinking.d38f5aad.jpg",
     "static/media/hand_writing.46a14bcb.jpg": "/static/media/hand_writing.46a14bcb.jpg",
-    "static/media/Jumbotron_SSS.css": "/static/media/jumbotron_bg.9c02a137.jpg",
+    "static/media/Jumbotron_SSS.css": "/static/media/kids.af458bcf.jpg",
     "static/media/maths.b5b58dee.png": "/static/media/maths.b5b58dee.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ae35b825.js",
     "static/css/2.4f8976c6.chunk.css",
     "static/js/2.fbd658cc.chunk.js",
-    "static/css/main.258b8cec.chunk.css",
-    "static/js/main.c1c63370.chunk.js"
+    "static/css/main.9bd54bc8.chunk.css",
+    "static/js/main.476389da.chunk.js"
   ]
 }
