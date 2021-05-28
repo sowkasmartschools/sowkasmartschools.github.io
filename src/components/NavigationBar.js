@@ -1,67 +1,47 @@
+import 'bootstrap/dist/css/bootstrap.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import {Nav, Navbar, NavDropdown, Button, Form, FormControl, Container, Col} from 'react-bootstrap';
+import Logo from './../img/logo.png';
 function NavigationBar() {
     return (
       <div>
-        <Navbar color="white" light expand="md">
-        <NavbarBrand href="#"><img src={Logo} alt="" width="200" height="80" /></NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-          <NavItem>
-              <NavLink href="#">Home</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="#">About Us</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-              FirstStepEnglish
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                Our Directors
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                Our Courses
-                </DropdownItem>
-                <DropdownItem>
-                For Schools
-                </DropdownItem>
-                <DropdownItem>
-                General & Higher
-                </DropdownItem>
-                <DropdownItem>
-                Business
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          <NavItem>
-            <NavLink href="#">Online Tutions</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#">Preschool & Daycare</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#">Contact Us</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#">Downloads</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#">FAQ</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#">Blog</NavLink>
-          </NavItem>
-          </Nav>
-          <form class="d-flex">
-            <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
-          </form>
-        </Collapse>
-      </Navbar>
+        <Navbar bg="light" variant="light" expand="lg" sticky="top" className="justify-content-between">
+        <Container>
+          <Navbar.Brand href="#home">
+            <img
+              src={Logo}
+              width="200"
+              height="80"
+              className="d-inline-block align-middle"
+              alt="Sowka Smart Schools logo"
+            />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+            <Nav.Link><Link to="/home">Home</Link></Nav.Link>
+            <Nav.Link><Link to="/about">About Us</Link></Nav.Link>
+            <Nav.Link><Link to="/contact">Contact Us</Link></Nav.Link>
+              <NavDropdown title="Our Courses" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">For Schools</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">General &amp; Higher</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Business</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">Our Directors</NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
+            <Form inline>
+              <Form.Row className="d-flex align-items-end">
+                <Col><FormControl type="text" placeholder="Search" className="mr-sm-2" /></Col>
+                <Col><Button variant="outline-dark" type="Submit" disabled>Search</Button></Col>
+              </Form.Row>
+            </Form>
+          </Navbar.Collapse>
+          </Container>
+        </Navbar>        
       </div>
     );
   }
   
-  export default About;
-  
+  export default NavigationBar;  
