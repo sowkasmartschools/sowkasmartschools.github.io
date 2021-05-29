@@ -34,7 +34,7 @@ function Footer_SSS() {
                 <div class="col-xl-4 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
                     <small> 
                         <span><i class="fa fa-envelope" aria-hidden="true"></i></span> 
-                        <b>Email:</b>&nbsp;<a style={{color: '#627482'}} href="mailto:sowkasmartschools@gmail.com">sowkasmartschools@gmail.com</a>
+                        <b>Email Us:</b>&nbsp;<a style={{color: '#627482'}} href="mailto:sowkasmartschools@gmail.com">sowkasmartschools@gmail.com</a>
                         <br /><b>Call Us:</b>&nbsp;9390203040,&nbsp;9390333335
                     </small>
                 </div>
