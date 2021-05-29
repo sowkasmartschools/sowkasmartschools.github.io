@@ -24,9 +24,9 @@ function NavigationBar() {
             <Nav.Link><Link to="/about">About Us</Link></Nav.Link>
             <Nav.Link><Link to="/contact">Contact Us</Link></Nav.Link>
               <NavDropdown title="Our Courses" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">For Schools</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">General &amp; Higher</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Business</NavDropdown.Item>
+                <NavDropdown.Item href="/forSchools">For Schools</NavDropdown.Item>
+                <NavDropdown.Item href="/generalAndHigher">General &amp; Higher</NavDropdown.Item>
+                <NavDropdown.Item href="/business">Business</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#action/3.4">Our Directors</NavDropdown.Item>
               </NavDropdown>

@@ -7,11 +7,13 @@ function Jumbotron_SSS() {
       <div>
         <Jumbotron fluid className='jumbotron_style'>
             <Container>
-                <h1 style={{color: "#ffffff"}}>Don't you think honing your skills in this competitive world is the only way to Succeed?</h1>
-                <p style={{color: "#ffffff"}}>
+            <br /><br /><br />
+                <h1 style={{color: "#0F0C89"}}>Don't you think honing your skills in this competitive world is the only way to Succeed?</h1>
+                <p style={{color: "#0F0C89"}}>
                 Our unique and distinctive programs makes the children to develop their skills in a smart way.
+                <Button variant="link"><Link to="/contact">Contact Us</Link></Button>
                 </p>
-                <Button variant="primary"><Link to="/contact">Contact Us</Link></Button>
+                <br /><br /><br />
             </Container>
         </Jumbotron>
       </div>
