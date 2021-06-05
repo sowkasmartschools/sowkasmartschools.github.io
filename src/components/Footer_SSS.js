@@ -16,7 +16,7 @@ function Footer_SSS() {
                 <div class="col-xl-2 col-md-4 col-sm-4 col-12">
                     <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
                     <ul class="list-unstyled">
-                        <li><Link to="/home" style={{color: '#627482'}}>Home</Link></li>
+                        <li><Link to="/" style={{color: '#627482'}}>Home</Link></li>
                         <li><Link to="/about" style={{color: '#627482'}}>About Us</Link></li>
                         <li><Link to="/contact" style={{color: '#627482'}}>Contact Us</Link></li>
                     </ul>

@@ -24,7 +24,7 @@ function NavigationBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-            <Nav.Link><Link to="/home">Home</Link></Nav.Link>
+            <Nav.Link><Link to="/">Home</Link></Nav.Link>
             <Nav.Link><Link to="/about">About Us</Link></Nav.Link>
             <Nav.Link><Link to="/contact">Contact Us</Link></Nav.Link>
               <NavDropdown title="Our Courses" id="basic-nav-dropdown">
