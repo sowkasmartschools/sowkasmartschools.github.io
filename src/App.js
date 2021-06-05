@@ -18,6 +18,7 @@ function App() {
   };
   return (
     <Router>
+      <NavigationBar/>
       <Marquee direction = "left"  style={marqueeStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, possimus voluptas perferendis voluptatum fugit molestiae tempore sed hic excepturi a labore, perspiciatis, quae doloribus sequi esse totam quibusdam dolorem tenetur nesciunt consequatur placeat odit. Ducimus quas sunt esse laborum provident?</Marquee>
       <Switch>
         <Route path="/" exact component={Home} />
