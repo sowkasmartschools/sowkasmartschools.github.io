@@ -27,7 +27,7 @@ function App() {
         <Route path="/forSchools" component={ForSchools} />
         <Route path="/generalAndHigher" component={GeneralAndHigher} />
         <Route path="/business" component={Business} />
-        <Route component={Error} />
+        <Route path="*" component={Error} />
       </Switch>
       <Footer_SSS/>
     </Router>
