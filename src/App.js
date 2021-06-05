@@ -7,11 +7,18 @@ import Business from './components/Business_SSS';
 import NavigationBar from './components/NavigationBar';
 import Footer_SSS from './components/Footer_SSS';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Marquee from "react-fast-marquee";
+
 
 function App() {
+  const marqueeStyle = {
+    backgroundColor: '#302C73',
+    color: '#FFFFFF'
+  };
   return (
     <Router>
       <NavigationBar/>
+      <Marquee direction = "left"  style={marqueeStyle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, possimus voluptas perferendis voluptatum fugit molestiae tempore sed hic excepturi a labore, perspiciatis, quae doloribus sequi esse totam quibusdam dolorem tenetur nesciunt consequatur placeat odit. Ducimus quas sunt esse laborum provident?</Marquee>
       <Switch>
         <Route path="/home" exact component={Home} />
         <Route path="/about" component={About} />

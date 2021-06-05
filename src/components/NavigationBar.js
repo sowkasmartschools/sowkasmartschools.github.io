@@ -4,14 +4,18 @@ import { Link } from 'react-router-dom';
 import {Nav, Navbar, NavDropdown, Button, Form, FormControl, Container, Col} from 'react-bootstrap';
 import Logo from './../img/logo.png';
 function NavigationBar() {
+    const navigationBarStyle = {
+      backgroundColor: '#FFFFFF',
+      // color: '#FFFFFF'
+    };  
     return (
       <div>
-        <Navbar bg="light" variant="light" expand="lg" sticky="top" className="justify-content-between">
+        <Navbar variant="light" expand="lg" sticky="top" className="justify-content-between" style={navigationBarStyle}>
         <Container>
           <Navbar.Brand href="#home">
             <img
               src={Logo}
-              width="200"
+              width="auto"
               height="80"
               className="d-inline-block align-middle"
               alt="Sowka Smart Schools logo"
