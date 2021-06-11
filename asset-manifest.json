@@ -1,28 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.74aee484.chunk.css",
-    "main.js": "/static/js/main.42ea871c.chunk.js",
-    "main.js.map": "/static/js/main.42ea871c.chunk.js.map",
+    "main.css": "/static/css/main.724d7927.chunk.css",
+    "main.js": "/static/js/main.ffa88587.chunk.js",
+    "main.js.map": "/static/js/main.ffa88587.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ae35b825.js",
     "runtime-main.js.map": "/static/js/runtime-main.ae35b825.js.map",
     "static/css/2.4f8976c6.chunk.css": "/static/css/2.4f8976c6.chunk.css",
-    "static/js/2.96963611.chunk.js": "/static/js/2.96963611.chunk.js",
-    "static/js/2.96963611.chunk.js.map": "/static/js/2.96963611.chunk.js.map",
+    "static/js/2.57977b50.chunk.js": "/static/js/2.57977b50.chunk.js",
+    "static/js/2.57977b50.chunk.js.map": "/static/js/2.57977b50.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4f8976c6.chunk.css.map": "/static/css/2.4f8976c6.chunk.css.map",
-    "static/css/main.74aee484.chunk.css.map": "/static/css/main.74aee484.chunk.css.map",
-    "static/js/2.96963611.chunk.js.LICENSE.txt": "/static/js/2.96963611.chunk.js.LICENSE.txt",
+    "static/css/main.724d7927.chunk.css.map": "/static/css/main.724d7927.chunk.css.map",
+    "static/js/2.57977b50.chunk.js.LICENSE.txt": "/static/js/2.57977b50.chunk.js.LICENSE.txt",
+    "static/media/G.SRINIVASA-RAO-ASSOCIATE-120x120.c2a9f74c.png": "/static/media/G.SRINIVASA-RAO-ASSOCIATE-120x120.c2a9f74c.png",
+    "static/media/ankalamma-120x120.4bb99659.png": "/static/media/ankalamma-120x120.4bb99659.png",
+    "static/media/Carousel_SSS.css": "/static/media/carousel_bg2.983f0749.png",
     "static/media/communication_skills.55a98079.png": "/static/media/communication_skills.55a98079.png",
     "static/media/conceptual_thinking.d38f5aad.jpg": "/static/media/conceptual_thinking.d38f5aad.jpg",
     "static/media/hand_writing.46a14bcb.jpg": "/static/media/hand_writing.46a14bcb.jpg",
+    "static/media/hasini-99x120.3f0dde12.png": "/static/media/hasini-99x120.3f0dde12.png",
     "static/media/Jumbotron_SSS.css": "/static/media/kids.af458bcf.jpg",
-    "static/media/maths.b5b58dee.png": "/static/media/maths.b5b58dee.png"
+    "static/media/kiran-kumar-chalagalla-120x120.59da4f47.png": "/static/media/kiran-kumar-chalagalla-120x120.59da4f47.png",
+    "static/media/lasya-107x120.a621ba26.png": "/static/media/lasya-107x120.a621ba26.png",
+    "static/media/lasya-priya-95x120.c042b449.png": "/static/media/lasya-priya-95x120.c042b449.png",
+    "static/media/maths.b5b58dee.png": "/static/media/maths.b5b58dee.png",
+    "static/media/prem-106x120.4a6fa941.png": "/static/media/prem-106x120.4a6fa941.png",
+    "static/media/rex-rajan-120x120.afbec3c2.png": "/static/media/rex-rajan-120x120.afbec3c2.png",
+    "static/media/usha-kranti-120x120.cd8beb17.png": "/static/media/usha-kranti-120x120.cd8beb17.png",
+    "static/media/vishuvardhana-rao-107x120.10e909c9.png": "/static/media/vishuvardhana-rao-107x120.10e909c9.png",
+    "static/media/women_placeholder.b9f108de.jpg": "/static/media/women_placeholder.b9f108de.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ae35b825.js",
     "static/css/2.4f8976c6.chunk.css",
-    "static/js/2.96963611.chunk.js",
-    "static/css/main.74aee484.chunk.css",
-    "static/js/main.42ea871c.chunk.js"
+    "static/js/2.57977b50.chunk.js",
+    "static/css/main.724d7927.chunk.css",
+    "static/js/main.ffa88587.chunk.js"
   ]
 }
